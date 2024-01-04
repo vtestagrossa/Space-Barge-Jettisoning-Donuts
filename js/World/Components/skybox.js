@@ -20,7 +20,7 @@ import {
     This function is used to get the paths to the skybox textures. 
 */
 function createPathStrings(filename) {
-    const basePath = "../../../assets/textures/skybox/"; //location for each texture
+    const basePath = "/assets/textures/skybox/"; //location for each texture
     const baseFilename = basePath + filename; //each file begins with the filename
     const fileType = ".png"; //append the filetype for each file
     const sides = ["ft", "bk", "up", "dn", "rt", "lf"]; // postpend for the side used
