@@ -11,7 +11,7 @@ async function loadDonut() {
     //used to load the model from blender
     const loader = new GLTFLoader();
 
-    const donutData = await loader.loadAsync("/assets/models/donut.glb");
+    const donutData = await loader.loadAsync("assets/models/donut.glb");
     //Was only used for testing.
     //console.log('mmmm...donut', donutData);
     const donut = donutData.scene.children[0];

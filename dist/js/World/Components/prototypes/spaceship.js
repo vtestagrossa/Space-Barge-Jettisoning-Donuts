@@ -19,7 +19,7 @@ async function loadSpaceship() {
     const loader = new GLTFLoader();
 
     //uses await because loading is done asynchronously
-    const spaceshipData = await loader.loadAsync("/assets/models/spaceship.glb");
+    const spaceshipData = await loader.loadAsync("assets/models/spaceship.glb");
     //used in testing. Uncomment to see the children, animations, and group properties for the model
     //console.log('spaceship', spaceshipData);
     
