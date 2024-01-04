@@ -1,0 +1,46 @@
+body {
+    /* remove margins and scroll bars */
+    margin: 0 auto;
+    overflow: hidden;
+  
+    /* style text */
+    text-align: center;
+    font-size: 12px;
+    font-family: Sans-Serif;
+  
+    /* color text */
+    color: #b4ddc8;
+    background-color: black;
+  }
+  
+  h1 {
+    width: 100%;
+    /* make sure that the heading is drawn on top */
+    z-index: 1;
+  }
+  #cRow {
+    background-color: rgb(1, 11, 11);
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  #cCol {
+    padding: 10px;
+  }
+  #controls-container {
+    text-align: left;
+    width: 100%;
+    background-color: black;
+  }
+  
+  #scene-container {
+    margin: 0 auto;
+    width: 640px;
+    height: 480px;
+    padding: 10px;
+  
+    /*
+      Set the container's background color to black because it's space.
+    */
+    background-color: black;
+  }
